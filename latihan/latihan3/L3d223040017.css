@@ -1,0 +1,36 @@
+body {
+  background-image: url(background.png);
+  background-color: red;
+  background-repeat: repeat-x;
+  background-position: top;
+  background-size: contain;
+  height: ;
+  font-family: georgia;
+  text-align: center;
+}
+h1 {
+  font-family: comic sans ms;
+  font-size: 60px;
+  color: darkblue;
+  /* text-align: center; */
+}
+.link1 {
+  color: red;
+}
+a.link1:hover {
+  color: white;
+}
+a.link2:hover {
+  color: white;
+  background-color: blue;
+}
+h4 {
+  /* text-align: right; */
+  font-style: oblique;
+}
+p {
+  /* text-align: center; */
+}
+.p1 {
+  color: orange;
+}
