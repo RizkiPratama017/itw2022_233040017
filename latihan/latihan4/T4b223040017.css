@@ -1,0 +1,100 @@
+body {
+  font: 16px/28px, sans-serif;
+  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/leaves.png);
+}
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+}
+.header {
+  padding: 20px;
+  padding-bottom: 5px;
+}
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+.header ul li {
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.header a {
+  text-decoration: none;
+  color: red;
+  padding: 3px;
+}
+.header a:hover {
+  background-color: red;
+  color: white;
+}
+.hero {
+  height: 360px;
+  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/menanampohon.png);
+  background-repeat: no-repeat;
+  background-size: 360px;
+}
+.content {
+  font-size: 13px;
+}
+.content a {
+  color: red;
+  text-decoration: none;
+}
+.content a:hover {
+  background-color: red;
+  color: white;
+}
+.tanda h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+ol li {
+  font-size: 30px;
+  font-weight: bold;
+}
+.hero1 {
+  height: 200px;
+  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/rumah.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.hero2 {
+  height: 200px;
+  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/pohonredambising.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.phero2 {
+  margin-top: -65px;
+}
+.hero3 {
+  height: 400px;
+  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/membersihkanudara.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.phero3 {
+  margin-top: -115px;
+}
+.hero4 {
+  height: 300px;
+  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/kognitif.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.phero4 {
+  margin-top: -20px;
+}
+.hero5 {
+  height: 260px;
+  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/banjir.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+}
