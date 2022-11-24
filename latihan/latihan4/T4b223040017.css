@@ -1,6 +1,6 @@
 body {
   font: 16px/28px, sans-serif;
-  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/leaves.png);
+  background-image: url(../latihan3/img/leaves.png);
 }
 .container {
   width: 800px;
@@ -31,7 +31,7 @@ body {
 }
 .hero {
   height: 360px;
-  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/menanampohon.png);
+  background-image: url(../latihan3/img/menanampohon.png);
   background-repeat: no-repeat;
   background-size: 360px;
 }
@@ -56,7 +56,7 @@ ol li {
 }
 .hero1 {
   height: 200px;
-  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/rumah.png);
+  background-image: url(../latihan3/img/rumah.png);
   background-size: 300px;
   background-repeat: no-repeat;
   margin-top: 10px;
@@ -64,7 +64,7 @@ ol li {
 }
 .hero2 {
   height: 200px;
-  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/pohonredambising.png);
+  background-image: url(../latihan3/img/pohonredambising.png);
   background-size: 300px;
   background-repeat: no-repeat;
   margin-top: 10px;
@@ -74,7 +74,7 @@ ol li {
 }
 .hero3 {
   height: 400px;
-  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/membersihkanudara.png);
+  background-image: url(../latihan3/img/membersihkanudara.png);
   background-size: 300px;
   background-repeat: no-repeat;
   margin-top: 10px;
@@ -84,7 +84,7 @@ ol li {
 }
 .hero4 {
   height: 300px;
-  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/kognitif.png);
+  background-image: url(../latihan3/img/kognitif.png);
   background-size: 300px;
   background-repeat: no-repeat;
   margin-top: 10px;
@@ -94,7 +94,7 @@ ol li {
 }
 .hero5 {
   height: 260px;
-  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/banjir.png);
+  background-image: url(../latihan3/img/banjir.png);
   background-size: 300px;
   background-repeat: no-repeat;
 }

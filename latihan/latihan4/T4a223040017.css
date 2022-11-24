@@ -1,8 +1,8 @@
 body {
   font: 16px/28px arial, sans-serif;
-  background-color: #eaeaea;
+  background-color: hsl(0, 0%, 92%);
   color: #333;
-  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/webb.png);
+  background-image: url(../latihan3/img/webb.png);
 }
 .container {
   width: 800px;
@@ -33,7 +33,7 @@ body {
 }
 .hero {
   height: 250px;
-  background-image: url(C:/Users/ACER/Desktop/itw2022_223040017/latihan/latihan3/img/hero.png);
+  background-image: url(../latihan3/img/hero.png);
   background-size: cover;
   background-position: 0 400px;
   border-top: 5px solid salmon;
