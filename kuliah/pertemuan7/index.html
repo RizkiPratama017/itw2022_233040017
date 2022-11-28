@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern CSS</title>
+    <style>
+      body {
+        height: 2000px;
+      }
+      .kotak1 {
+        width: 75px;
+        height: 150px;
+        background-color: rgb(250, 128, 114);
+        margin: auto;
+        /* border-radius: 50% 0 50% 0; */
+        /* <kiriatas-kananatas-kananbawah-kiribawah> */
+        /* border-radius: 50%;
+        border-top-left-radius: 0; */
+        /* border-radius: 0 75px 75px 0; */
+        opacity: 1;
+        position: relative;
+        z-index: 10;
+      }
+      p {
+        position: relative;
+        top: -100px;
+      }
+      .kotak2 {
+        width: 200px;
+        height: 200px;
+        background-color: skyblue;
+        margin: auto;
+        /* box-shadow: [[inset]<x-offset> <y-offset> <blur> [size] <color>; */
+        box-shadow: 10px 10px 10px red, -10px -10px 10px blue,
+          10px -10px 10px orange;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 100px;
+        font-family: arial;
+        font-size: 100px;
+        color: white;
+        text-shadow: 2px 2px 5px red;
+      }
+      .kotak3 {
+        width: 200px;
+        height: 200px;
+        background-color: lightgreen;
+        margin: auto;
+        /* transform: translate(100px 100px); */
+        /* transform: scale(1.5); */
+        /* transform: skew(-20deg); */
+        font-size: 50px;
+        text-align: center;
+        line-height: 200px;
+        transition: 2s, 3s, 2s, 3s, 5s, 3s, 8s;
+      }
+      .kotak3:hover {
+        transform: rotate(720deg);
+        background-color: salmon;
+        border-radius: 50%;
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak1"></div>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, corrupti
+      deleniti omnis ipsum tenetur est debitis similique et eius voluptatum
+      velit in deserunt impedit? Laboriosam error voluptatum mollitia eaque
+      quasi!
+    </p>
+    <div class="kotak2"></div>
+
+    <h1>Rizki Pratama</h1>
+    <div class="kotak3">1</div>
+  </body>
+</html>

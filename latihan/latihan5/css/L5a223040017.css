@@ -1,0 +1,127 @@
+body {
+  font: 20px/40px;
+  background-color: rgb(240, 240, 240);
+}
+h1 {
+  font-size: 80px;
+  margin: 50px 0;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px 1px rgb(232, 217, 131);
+}
+.container {
+  width: 800px;
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 2px 2px rgb(232, 217, 131);
+}
+.galeri li,
+.galeri li img,
+.galeri li span {
+  border-radius: 50%;
+}
+.galeri li {
+  width: 120px;
+  height: 213px;
+  overflow: hidden;
+  box-shadow: 0 0 0 4px rgb(240, 240, 240);
+  float: left;
+  margin: 40px;
+  position: relative;
+  text-align: center;
+  line-height: 213px;
+}
+.galeri li span {
+  display: block;
+  width: 120px;
+  height: 213px;
+  background-color: rgba(240, 240, 240, 0.5);
+  position: absolute;
+  top: 0;
+  color: rgb(5, 5, 5);
+  opacity: 0;
+  transition: 0.5s;
+  transform: scale(0);
+}
+.galeri li a:hover span {
+  opacity: 1;
+  transform: scale(1) rotateX(360deg);
+}
+
+.clear {
+  clear: both;
+}
+
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(175, 175, 175, 0);
+  z-index: 9999;
+  transition: 1s;
+  text-align: center;
+  padding: 80px 0;
+}
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(182, 178, 157, 0.5);
+}
+.overlay img {
+  max-height: 100%;
+  box-shadow: 2px, 2px, 7px rgb(0, 0, 0);
+}
+.overlay:target img {
+  animation: animasi 2s;
+}
+.overlay .x {
+  position: absolute;
+  top: 40px;
+  left: 58%;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  line-height: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  opacity: 0;
+}
+.overlay:target .x,
+.overlay:target .prev,
+.overlay:target .next {
+  animation: animasi1 0.5s 1s forwards;
+}
+.overlay .prev,
+.overlay .next {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+  opacity: 0;
+}
+
+@keyframes animasi {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) rotateY(720deg);
+    opacity: 1;
+  }
+}
+@keyframes animasi1 {
+  0% {
+    opacity: 0;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+    transform: rotateY(360deg);
+  }
+}
